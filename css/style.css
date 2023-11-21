@@ -1,0 +1,408 @@
+/* ****************************** 
+***       Global CSS          ***
+************************8******* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ******************************** 
+***       Header CSS Code     ***
+************************8******* */
+
+header {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+header .logo {
+    float: left;
+    width: 20%;
+}
+
+header .logo img {
+    width: 120px;
+    height: 100%;
+}
+
+header .nav {
+    float: left;
+    width: 60%;
+}
+
+header .nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 18px;
+    margin-top: 6px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+
+header .btn {
+    float: left;
+    width: 20%;
+}
+
+header .btn button {
+    font-weight: 600;
+    padding: 12px 18px;
+    background: #FA565A;
+    font-size: 16px;
+    color: white;
+    /* border: none; */
+    border: 1px solid #FA565A;
+    border-radius: 5px;
+}
+
+/* ******************************** 
+***       Header CSS Code End    ***
+************************8******* */
+
+
+
+
+/* ******************************** 
+***       Body CSS Code Start    ***
+************************8******* */
+
+
+.banner-section {
+
+    width: 100%;
+    padding: 130px 0px;
+
+}
+
+.banner-section .left,
+.banner-section .right {
+
+    float: left;
+    width: 50%;
+
+}
+
+.banner-section .left h1 {
+
+    font-size: 35px;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin-top: 65px;
+}
+
+
+.banner-section .left p {
+
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.486);
+    margin-bottom: 40px;
+}
+
+.banner-section .left ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    background: #184ab6;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align-last: center;
+    border-radius: 50%;
+    border: 1px solid #184ab6;
+    transition: 0.5s;
+
+}
+
+.banner-section .left ul li:hover {
+
+    background: transparent;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+.banner-section .left ul li i {
+
+    margin-top: 13px;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+
+.banner-section .left ul li:hover i {
+
+    color: #184ab6;
+    transition: 0.5s;
+    transform: rotate(360deg);
+}
+
+
+
+
+.banner-section .right img {
+
+    width: 96%;
+    height: 100%;
+
+}
+
+
+.projects-section {
+
+    width: 100%;
+    clear: both;
+    padding: 400px 0px;
+}
+
+
+
+
+
+.projects-section {
+
+    width: 100%;
+    padding: 400px 0px;
+    clear: both;
+}
+
+.projects-section .title {
+
+    text-align: center;
+}
+
+.projects-section .title p {
+
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(153, 158, 161);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.projects {
+    display: flex
+}
+
+
+.projects .catagory {
+    margin: 25px 10px;
+    text-align: center;
+}
+
+
+.projects .catagory img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+.line-section{
+
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.line-section .line{
+
+    width: 50px;
+    height: 3px;
+    background: #00000059;
+    margin: auto;
+    transform: rotate(90deg);
+   
+    margin-top: -150px;
+}
+
+
+
+
+
+
+
+.feature-section .title {
+
+    text-align: center;
+}
+
+.feature-section .title p {
+
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(153, 158, 161);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.feature-section .features {
+
+    justify-content: center;
+    display: flex;
+
+}
+
+
+
+.feature-section .features .card {
+
+    background: #eee;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px;
+    
+
+
+}
+
+
+
+.feature-section .features .card i {
+
+    background: white;
+    color: red;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+
+.feature-section .features .card h4 {
+
+
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(85, 80, 80);
+
+}
+
+.feature-section .features .card p {
+
+    color: rgb(153, 158, 161);
+
+
+}
+
+
+
+
+
+
+/* ******************************** 
+***       Body CSS Code End    ***
+************************8******* */
+
+
+
+
+/* ******************************** 
+***       Footer CSS Code     ***
+************************8******* */
+
+
+.footer-section {
+
+    background: #28244b;
+
+}
+
+
+.footer-section .container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+
+.footer-section .container .title h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+
+.footer-section .container .btn {
+
+    padding-bottom: 10px;
+}
+
+
+.footer-section .container .btn button {
+
+
+    font-weight: 600;
+    padding: 20px 18px;
+    margin: 20px 20px;
+    background: #FA565A;
+    font-size: 16px;
+    color: white;
+    /* border: none; */
+    border: 1px solid #FA565A;
+    border-radius: 5px;
+
+
+}
+
+.footer-section .container .logo {
+
+    height: 80%;
+    width: auto;
+    padding-top: 10px;
+
+}
+
+.footer-section .container .card {
+
+    background: rgb(99, 94, 94);
+    color: rgb(36, 35, 35);
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    font-size: 20px;
+
+
+    float: right;
+
+}
+
+.footer-section .container .card i {
+
+    font-size: 20px;
+
+}
